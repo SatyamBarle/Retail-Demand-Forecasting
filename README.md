@@ -1,10 +1,10 @@
-# 📈 Retail Demand Forecasting using LightGBM & XGBoost
+#  Retail Demand Forecasting using LightGBM & XGBoost
 
 A machine learning project that predicts daily retail product demand across multiple stores using gradient boosting algorithms. The objective is to build an accurate forecasting pipeline that helps retailers optimize inventory planning, reduce stock shortages, and improve supply chain decisions.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Demand forecasting plays a critical role in retail operations. Overstocking increases inventory holding costs, while understocking results in lost sales and poor customer experience.
 
@@ -14,7 +14,7 @@ The project focuses on learning meaningful demand patterns from historical sales
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Forecast daily retail demand for multiple products and stores
 - Understand demand patterns using exploratory data analysis
@@ -26,7 +26,7 @@ The project focuses on learning meaningful demand patterns from historical sales
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 **Dataset Type:** Multi-store, Multi-product Retail Demand Dataset
 
@@ -46,7 +46,7 @@ Daily product demand.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Python
 - Pandas
@@ -59,7 +59,7 @@ Daily product demand.
 
 ---
 
-# 📊 Project Workflow
+# Project Workflow
 
 ```
 Data Collection
@@ -97,7 +97,7 @@ Demand Forecast Visualization
 
 ---
 
-# 🔍 Exploratory Data Analysis
+#  Exploratory Data Analysis
 
 The exploratory analysis focuses on understanding demand behaviour before model development.
 
@@ -120,7 +120,7 @@ Key analyses include:
 
 ---
 
-## 🚨 Data Leakage Detection
+##  Data Leakage Detection
 
 Before model training, potential leakage variables were identified.
 
@@ -128,7 +128,7 @@ Features such as **Units Sold** and **Units Ordered** showed extremely strong co
 
 ---
 
-# ⚙ Feature Engineering
+#  Feature Engineering
 
 To improve predictive performance, several feature groups were created.
 
@@ -170,7 +170,7 @@ These engineered features allow the models to capture seasonality, recent demand
 
 ---
 
-## ⏳ Time-Series Validation
+##  Time-Series Validation
 
 Unlike conventional machine learning problems, retail forecasting requires preserving chronological order.
 
@@ -180,7 +180,7 @@ This prevents data leakage and better simulates real-world forecasting.
 
 ---
 
-# 🤖 Models Used
+# Models Used
 
 ## LightGBM
 
@@ -206,7 +206,7 @@ Advantages:
 
 ---
 
-# 📈 Model Evaluation
+#  Model Evaluation
 
 Model performance was evaluated using:
 
@@ -222,7 +222,7 @@ Both models demonstrated strong forecasting capability, with feature engineering
 
 ---
 
-# 🔍 Feature Importance
+#  Feature Importance
 
 Feature importance analysis was used to understand which variables contributed most to forecasting performance.
 
@@ -234,7 +234,7 @@ Historical demand features consistently ranked among the most influential predic
 
 ---
 
-# 📉 Forecast Visualization
+#  Forecast Visualization
 
 The predicted demand closely follows the overall demand trend while capturing seasonal fluctuations.
 
@@ -247,7 +247,7 @@ Although sudden demand spikes remain challenging, both models successfully learn
 
 ---
 
-# 💼 Business Impact
+#  Business Impact
 
 Accurate retail demand forecasting can help businesses:
 
@@ -262,7 +262,7 @@ Although this project uses a public dataset, the workflow can be adapted for rea
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 Potential improvements include:
 
